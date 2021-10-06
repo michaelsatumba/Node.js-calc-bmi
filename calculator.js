@@ -20,9 +20,6 @@ app.post("/", function(req, res){
   res.send("The result of the calculation is " + result);
 })
 // divide
-app.get("/bmicalculator", function(req, res){
-  res.sendFile(__dirname + "/bmiCalculator.html");
-})
 
 app.post("/bmicalculator", function(req, res){
 
